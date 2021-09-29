@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background: #565556;
+}
+
+.contact-container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.warp-contact {
+ background: #fff;
+ width: 650px;
+ height: 490px;
+ padding: 2rem 4.5rem;
+ border-radius: 7px;
+}
+
+h2.contact-form-title{
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  font-weight: 400;
+  color: #17202A;
+}
+
+.two-side-input {
+  display: flex;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  margin-right: 6rem;
+}
+
+.input-div span {
+  font-size: 13px;
+  padding-bottom: 5px;
+  color: #787878;
+}
+
+.input-div textarea,
+.input-div input {
+  border: none;
+  border-bottom: 1px solid #D5DBDB;
+  padding: 0px 20px;
+  font-size: 13px;
+  outline: none;
+  color: #787878;
+  transition: 0.3s;
+}
+
+.input-div textarea{
+  height: 100px;
+  width: 122%;
+}
+
+.input-div textarea:focus,
+.input-div input:focus{
+  border-color: #FB4C5A;
+  padding: 5px 20px;
+}
+
+.submit-btn .btn {
+  border: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 400;
+  background: #FF4B5C;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 1px 1px 20px 4px #e76b77;
+  transition: 0.5s;
+}
+
+.submit-btn .btn:hover{
+  background: #2F2D2E;
+  box-shadow: 3px 8px 20px 4px #b2afb0;
+}
